@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "sequence": 7,
-  "issued": "2026-10-22T10:22:01Z",
+  "sequence": 8,
+  "issued": "2026-10-22T10:46:13Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
       "stable": {
-        "version": "0.2.4",
+        "version": "0.3.0",
         "date": "2026-10-22",
-        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.4/Nightbuild-Setup-0.2.4.exe",
-        "sha256": "461130f382eb4d5063d70abda49050b64cc04c735127317e80d9556ddec3269d",
-        "size": 3403644,
-        "notes": "Уведомление об обновлении программы исчезает, как только программа обновлена — из лаунчера или ею самой."
+        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.0/Nightbuild-Setup-0.3.0.exe",
+        "sha256": "061af1e217a1bd05139b60ac744d9b60c6adf3c3b261d04dbf78157937786d19",
+        "size": 3462692,
+        "notes": "Вход через Telegram: один вход — и TakeS, открытый из лаунчера, входит в ваш аккаунт сам. Устройства и выход — в Настройках → Аккаунт."
       }
     }
   },

@@ -1,11 +1,11 @@
 {
-  "version": "0.2.4",
-  "notes": "Уведомление об обновлении программы исчезает, как только программа обновлена — из лаунчера или ею самой.",
-  "pub_date": "2026-10-22T10:21:34Z",
+  "version": "0.3.0",
+  "notes": "Вход через Telegram: один вход — и TakeS, открытый из лаунчера, входит в ваш аккаунт сам. Устройства и выход — в Настройках → Аккаунт.",
+  "pub_date": "2026-10-22T10:45:52Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEb3lUVENsRUtJNUQ4YWpCZ29zZk5CbFZsd3JmN3NKcVR5TDRvTEgzaVplQ3hMNVJ4QlhUV1haZnJpdEN5TzF4ZTV1Y29RRjdlZ0pDejJiL25hN2hGSGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY0NDU3CWZpbGU6TmlnaHRidWlsZF8wLjIuNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjQKS2FwRS9uWGhyaHJZYnhzZVluSkxyRTErWUdWUTBiUG81eUhmVE9nYjRjdldiOTBTSzRQKytKT2dZdXk2elFYbUpBU3BETFhpK1JqbWJZaFJzNXFLQ0E9PQo=",
-      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.4/Nightbuild-Setup-0.2.4.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEby9xNGg0UzRwV09QTlliQ25ldGg2b3lIa3ExK1RkUEE1R1lQWUpDVXNrTmhFR0tNOTIzUVVDbXZoZkY4bmRteDJsSEpSTVRZUFNFdExISlUraFV1Y0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY1OTQ1CWZpbGU6TmlnaHRidWlsZF8wLjMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjAKbFQ5aDFKOVlOOU0wQTM0S0ZLN0FOUjcxZHpYUXNVWURNSjczZndNTkJLdktJOWU1ZzVhZmNmYjhOc3NHSHo5L0s5UDkveTdsVTNMVUtTWHFuU20zRFE9PQo=",
+      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.0/Nightbuild-Setup-0.3.0.exe"
     }
   }
 }
