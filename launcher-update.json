@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "notes": "Первая версия Nightbuild: каталог приложений, установка, запуск и обновления TakeS, Sorter и Bleedline, самообновление.",
+  "pub_date": "2026-10-22T06:14:10Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEbzJNSnhOTlNMZ1g3Q3BKcXA5WDdYaUpJM2pzQlYvNnM3dWZOUElZSTdRY1JEMmM1VVd0UjNHM1JCM2p2a2lFN09VZE1ua3pHcytUcXQ1NTkrSkZQb2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjQ5NTkzCWZpbGU6TmlnaHRidWlsZF8wLjIuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjAKek1vajhCY2RGZEdpdmpZV0pibmVRR1plT2ZIUXRTSzdvTUp3aEZFWEJQSEdHYThOaWxTTURIWWVBUGxzaEhhOGg3V3llU0pydTN6eEZsK1Y5TzQ4RGc9PQo=",
+      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.0/Nightbuild-Setup-0.2.0.exe"
+    }
+  }
+}

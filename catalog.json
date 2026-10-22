@@ -1,9 +1,19 @@
 {
   "schema": 1,
-  "sequence": 1,
-  "issued": "2026-10-22T05:36:00Z",
+  "sequence": 2,
+  "issued": "2026-10-22T06:14:15Z",
   "launcher": {
-    "minSupported": "0.1.0"
+    "minSupported": "0.1.0",
+    "releases": {
+      "stable": {
+        "version": "0.2.0",
+        "date": "2026-10-22",
+        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.0/Nightbuild-Setup-0.2.0.exe",
+        "sha256": "3eff25f4962285604b1d87ae41d14cbd750eecba38eb39409296a77c4322ec38",
+        "size": 3402993,
+        "notes": "Первая версия Nightbuild: каталог приложений, установка, запуск и обновления TakeS, Sorter и Bleedline, самообновление."
+      }
+    }
   },
   "apps": [
     {
