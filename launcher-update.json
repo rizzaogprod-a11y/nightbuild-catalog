@@ -1,11 +1,11 @@
 {
-  "version": "0.2.2",
-  "notes": "Уведомление о завершённой установке, честная надпись о размере обновления Bleedline, постоянная ссылка на лаунчер для друзей.",
-  "pub_date": "2026-10-22T09:50:52Z",
+  "version": "0.2.3",
+  "notes": "Уведомления об обновлениях Bleedline больше не показывают размер только установщика.",
+  "pub_date": "2026-10-22T09:58:41Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEb3o1b3BtdG1pcUswWGdEekFmdjZUNlVOVVhMSzBhUCsxc3F1VGU0N0xGM1dhcDJ0NS9jSFpZUXdEWUZtZTJWOWx3TnQrTFVsN0o5dWNaeGx2M25EeXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjYyNjE2CWZpbGU6TmlnaHRidWlsZF8wLjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIKQlB3WGt0aXorbWVnOER0OE5ZeVJjMkMzbW5pbm1EdFdvZ3hJd0o0NmhMNDhvREduTjRRSmN1bkEyK243SnV1Q3kzcjhsSmVLUnJwTWY1USt2aXhHQ2c9PQo=",
-      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.2/Nightbuild-Setup-0.2.2.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEb3lmU3RIbWY4eTRNcEV1LzByUWJnTFR1aWZ4aTNqeU4wN3F5aHVDZWM4S1pOenBxL0ViUnRLRWZ4UGRMcHJvbzNHc0R5ajJrSGIvemIvMWV3aG1pRFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjYzMTE1CWZpbGU6TmlnaHRidWlsZF8wLjIuM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjMKQUhzTFVwSmVLK2hrTVUxek8xb25QVjZEVm5pcHhGRDMyWXpuMy9uc3ZOWVM1QXdSeW82SEpmUVNsMEVJeVlGZURCZ3hseFhNcThNRElmRDFZMzBZQnc9PQo=",
+      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.3/Nightbuild-Setup-0.2.3.exe"
     }
   }
 }

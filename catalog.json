@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "sequence": 5,
-  "issued": "2026-10-22T09:50:59Z",
+  "sequence": 6,
+  "issued": "2026-10-22T09:58:48Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
       "stable": {
-        "version": "0.2.2",
+        "version": "0.2.3",
         "date": "2026-10-22",
-        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.2/Nightbuild-Setup-0.2.2.exe",
-        "sha256": "ce05b82f5e1a9b877080a57a10c01184b3fad5b89aa99630aa80d52b978f38a8",
-        "size": 3403813,
-        "notes": "Уведомление о завершённой установке, честная надпись о размере обновления Bleedline, постоянная ссылка на лаунчер для друзей."
+        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.3/Nightbuild-Setup-0.2.3.exe",
+        "sha256": "306e1ab5c81d8089da3823b121122c87678de36594090c3e0625e09f6ab61a2a",
+        "size": 3403489,
+        "notes": "Уведомления об обновлениях Bleedline больше не показывают размер только установщика."
       }
     }
   },
