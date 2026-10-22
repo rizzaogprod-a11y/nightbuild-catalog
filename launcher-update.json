@@ -1,11 +1,11 @@
 {
-  "version": "0.2.1",
-  "notes": "Проверка самообновления: изменений для пользователя нет.",
-  "pub_date": "2026-10-22T06:17:09Z",
+  "version": "0.2.2",
+  "notes": "Уведомление о завершённой установке, честная надпись о размере обновления Bleedline, постоянная ссылка на лаунчер для друзей.",
+  "pub_date": "2026-10-22T09:50:52Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEbzdVWjdpYzJFMTRpbk9kc0VGVnpXRGhna0lEa2IxSmEvbjhqcmpEUEl3RnQ4czBSa2JadUJLUkQ1NmZhNlFGS2VFT2IxWEVkbjRoMTByNmJvelpIZlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjQ5ODEwCWZpbGU6TmlnaHRidWlsZF8wLjIuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjEKU3RYaURzcGMyQURZSXJ5eVNNa2ZBbEZQYmxhYnhwKzIvQlBCUjBIWHQrelQvN2REc1BXSXdOWklQMkZTcXg2RmtxaGlZeWJGVVgzZ3c5Q3RlWERqRFE9PQo=",
-      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.1/Nightbuild-Setup-0.2.1.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEb3o1b3BtdG1pcUswWGdEekFmdjZUNlVOVVhMSzBhUCsxc3F1VGU0N0xGM1dhcDJ0NS9jSFpZUXdEWUZtZTJWOWx3TnQrTFVsN0o5dWNaeGx2M25EeXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjYyNjE2CWZpbGU6TmlnaHRidWlsZF8wLjIuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjIKQlB3WGt0aXorbWVnOER0OE5ZeVJjMkMzbW5pbm1EdFdvZ3hJd0o0NmhMNDhvREduTjRRSmN1bkEyK243SnV1Q3kzcjhsSmVLUnJwTWY1USt2aXhHQ2c9PQo=",
+      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.2.2/Nightbuild-Setup-0.2.2.exe"
     }
   }
 }
