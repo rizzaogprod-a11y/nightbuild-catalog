@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sequence": 8,
-  "issued": "2026-10-22T10:46:13Z",
+  "sequence": 9,
+  "issued": "2026-10-22T10:53:19Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
@@ -48,15 +48,20 @@
       "sso": "takes",
       "releases": {
         "stable": {
-          "version": "1.2.3",
+          "version": "1.2.4",
           "date": "2026-10-22",
-          "url": "https://github.com/rizzaogprod-a11y/takes-releases/releases/download/v1.2.3/TakeS-Setup.exe",
-          "sha256": "2d26fbb6888ccf0a38d944c63e649ac08137f551e98156dee85129f1e39ba36e",
-          "size": 74082418,
+          "url": "https://github.com/rizzaogprod-a11y/takes-releases/releases/download/v1.2.4/TakeS-Setup.exe",
+          "sha256": "d7072295864b0259d522a8d96293734f06dbad44dd5e0742ec835e8e5d8a674a",
+          "size": 74082637,
           "notes": "Установщик TakeS для Windows"
         }
       },
       "history": [
+        {
+          "version": "1.2.4",
+          "date": "2026-10-22",
+          "notes": "Установщик TakeS для Windows"
+        },
         {
           "version": "1.2.3",
           "date": "2026-10-22",
