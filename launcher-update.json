@@ -1,11 +1,11 @@
 {
-  "version": "0.3.1",
-  "notes": "Новый логотип Nightbuild: полумесяц из слоёв ночной сборки.",
-  "pub_date": "2026-10-22T11:08:00Z",
+  "version": "0.3.2",
+  "notes": "Значки на рабочем столе и в панели задач обновляются сразу после обновления лаунчера.",
+  "pub_date": "2026-10-22T11:17:58Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEb3cyb0JSUWV3ZlhvUFZ0SVprZlJxdDFrWCsyV0RpVFMvQjd2ejlzZjlnUUJ6amxMdU5lQ25IbXlxb29aYUJaUUlJTCsyTCt3L0hWbU80Rk84eERmQmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY3MjU3CWZpbGU6TmlnaHRidWlsZF8wLjMuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjEKU3hQZU5jUUswaGdHbkNGRkJRKzFNandaWUVvRWllYzlleUVEbUp6SC9UYXNYVHdwelhFblMyOHFaaG5aYmsvbmZUZTZINnphdXhJczRXd3JmbUUzQ0E9PQo=",
-      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.1/Nightbuild-Setup-0.3.1.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEbzFPRjQ0Q2trdGdoQS9Na1dRcDB6SExUc0hEWmZ0a0cxSW9xcy9QazhNUit5bVJFUzVjYWRXbER0VGUxbkI4OE5HVElUeUhQUVNaWE1GaXdqOHNYdmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY3ODcwCWZpbGU6TmlnaHRidWlsZF8wLjMuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjIKcVJSbkR6T3Vwek9Ud1lYb3hyWm9vTkFpKzh6SVg2aFJ4NTRWazFubDJBaXFZbE9ZVHdreSt5TGdYd1dMMkFHMEptUXo3eURRdUl1VGpUcTZNQVU3Q3c9PQo=",
+      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.2/Nightbuild-Setup-0.3.2.exe"
     }
   }
 }
