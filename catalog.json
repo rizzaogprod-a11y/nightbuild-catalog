@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "sequence": 12,
-  "issued": "2026-10-22T11:29:41Z",
+  "sequence": 13,
+  "issued": "2026-10-22T11:33:23Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
       "stable": {
-        "version": "0.3.2",
+        "version": "0.3.3",
         "date": "2026-10-22",
-        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.2/Nightbuild-Setup-0.3.2.exe",
-        "sha256": "b0ff5800affd1d7b72e490f3f2a9122760b347dbfe526c85f383f81977da59b5",
-        "size": 3459491,
-        "notes": "Значки на рабочем столе и в панели задач обновляются сразу после обновления лаунчера."
+        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.3/Nightbuild-Setup-0.3.3.exe",
+        "sha256": "b27c1ce6f19f250c0c0f4810da2bf98e3d161113088bc56ffacdc3a0f040d6a5",
+        "size": 3465004,
+        "notes": "Лаунчер сразу замечает новые версии, когда вы возвращаетесь в его окно, а не только раз в несколько часов."
       }
     }
   },

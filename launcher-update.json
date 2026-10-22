@@ -1,11 +1,11 @@
 {
-  "version": "0.3.2",
-  "notes": "Значки на рабочем столе и в панели задач обновляются сразу после обновления лаунчера.",
-  "pub_date": "2026-10-22T11:17:58Z",
+  "version": "0.3.3",
+  "notes": "Лаунчер сразу замечает новые версии, когда вы возвращаетесь в его окно, а не только раз в несколько часов.",
+  "pub_date": "2026-10-22T11:33:13Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEbzFPRjQ0Q2trdGdoQS9Na1dRcDB6SExUc0hEWmZ0a0cxSW9xcy9QazhNUit5bVJFUzVjYWRXbER0VGUxbkI4OE5HVElUeUhQUVNaWE1GaXdqOHNYdmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY3ODcwCWZpbGU6TmlnaHRidWlsZF8wLjMuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjIKcVJSbkR6T3Vwek9Ud1lYb3hyWm9vTkFpKzh6SVg2aFJ4NTRWazFubDJBaXFZbE9ZVHdreSt5TGdYd1dMMkFHMEptUXo3eURRdUl1VGpUcTZNQVU3Q3c9PQo=",
-      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.2/Nightbuild-Setup-0.3.2.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEbzVKYzBLRmI2WTV6MXVxcUxPYmZTUkgraDV3bVRrbTlUQnZDOHdGaFIwTExCRG5Oa0l1NW1LUHFyVTlyTldqMTlDUGlWT3N3Q1U5Tk15dmwrTkpzWmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY4NzQ0CWZpbGU6TmlnaHRidWlsZF8wLjMuM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjMKOFVvNVh4S29HUEZKYlROdzQwN3IyOS9yQk1EajlFdXZSbS82Ykd4MFVQNHUyZEg2ZWw1SFc1djlTQXdGU0Qrc2E2Z2xpejdOYUNta3hVT2NOU1BJQWc9PQo=",
+      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.3/Nightbuild-Setup-0.3.3.exe"
     }
   }
 }
