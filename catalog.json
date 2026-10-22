@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "sequence": 9,
-  "issued": "2026-10-22T10:53:19Z",
+  "sequence": 10,
+  "issued": "2026-10-22T11:08:26Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
       "stable": {
-        "version": "0.3.0",
+        "version": "0.3.1",
         "date": "2026-10-22",
-        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.0/Nightbuild-Setup-0.3.0.exe",
-        "sha256": "061af1e217a1bd05139b60ac744d9b60c6adf3c3b261d04dbf78157937786d19",
-        "size": 3462692,
-        "notes": "Вход через Telegram: один вход — и TakeS, открытый из лаунчера, входит в ваш аккаунт сам. Устройства и выход — в Настройках → Аккаунт."
+        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.1/Nightbuild-Setup-0.3.1.exe",
+        "sha256": "e259c3e1efcd429cc03fdb4d6c7e24bc2e94918208a07e26b09151a5a133381a",
+        "size": 3459850,
+        "notes": "Новый логотип Nightbuild: полумесяц из слоёв ночной сборки."
       }
     }
   },

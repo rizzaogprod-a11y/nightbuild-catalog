@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "Вход через Telegram: один вход — и TakeS, открытый из лаунчера, входит в ваш аккаунт сам. Устройства и выход — в Настройках → Аккаунт.",
-  "pub_date": "2026-10-22T10:45:52Z",
+  "version": "0.3.1",
+  "notes": "Новый логотип Nightbuild: полумесяц из слоёв ночной сборки.",
+  "pub_date": "2026-10-22T11:08:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEby9xNGg0UzRwV09QTlliQ25ldGg2b3lIa3ExK1RkUEE1R1lQWUpDVXNrTmhFR0tNOTIzUVVDbXZoZkY4bmRteDJsSEpSTVRZUFNFdExISlUraFV1Y0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY1OTQ1CWZpbGU6TmlnaHRidWlsZF8wLjMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjAKbFQ5aDFKOVlOOU0wQTM0S0ZLN0FOUjcxZHpYUXNVWURNSjczZndNTkJLdktJOWU1ZzVhZmNmYjhOc3NHSHo5L0s5UDkveTdsVTNMVUtTWHFuU20zRFE9PQo=",
-      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.0/Nightbuild-Setup-0.3.0.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRaGZmaUNXbHNEb3cyb0JSUWV3ZlhvUFZ0SVprZlJxdDFrWCsyV0RpVFMvQjd2ejlzZjlnUUJ6amxMdU5lQ25IbXlxb29aYUJaUUlJTCsyTCt3L0hWbU80Rk84eERmQmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjY3MjU3CWZpbGU6TmlnaHRidWlsZF8wLjMuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjEKU3hQZU5jUUswaGdHbkNGRkJRKzFNandaWUVvRWllYzlleUVEbUp6SC9UYXNYVHdwelhFblMyOHFaaG5aYmsvbmZUZTZINnphdXhJczRXd3JmbUUzQ0E9PQo=",
+      "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.1/Nightbuild-Setup-0.3.1.exe"
     }
   }
 }
