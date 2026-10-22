@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "sequence": 13,
-  "issued": "2026-10-22T11:33:23Z",
+  "sequence": 14,
+  "issued": "2026-10-22T14:59:33Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
       "stable": {
-        "version": "0.3.3",
+        "version": "0.4.0",
         "date": "2026-10-22",
-        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.3.3/Nightbuild-Setup-0.3.3.exe",
-        "sha256": "b27c1ce6f19f250c0c0f4810da2bf98e3d161113088bc56ffacdc3a0f040d6a5",
-        "size": 3465004,
-        "notes": "Лаунчер сразу замечает новые версии, когда вы возвращаетесь в его окно, а не только раз в несколько часов."
+        "url": "https://github.com/rizzaogprod-a11y/nightbuild-releases/releases/download/v0.4.0/Nightbuild-Setup-0.4.0.exe",
+        "sha256": "82031fb59a3bc2f3d9b978c5f141b9d27db2edbd4379283a2c0e8c4ad5ba1116",
+        "size": 3552555,
+        "notes": "Перенос на новый ПК: профиль с вашими программами и настройками лаунчера сохраняется в аккаунте сам. На новом ПК после входа лаунчер предложит восстановить всё одной кнопкой и покажет, что сделать руками. Можно перенести и файлом, без аккаунта."
       }
     }
   },
