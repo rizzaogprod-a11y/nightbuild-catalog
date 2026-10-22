@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "sequence": 1,
+  "issued": "2026-10-22T05:36:00Z",
+  "launcher": {
+    "minSupported": "0.1.0"
+  },
+  "apps": [
+    {
+      "id": "takes",
+      "name": "TakeS",
+      "summary": "Социальная платформа для артистов, битмейкеров и слушателей",
+      "color": "#f0a830",
+      "icon": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/icons/takes.png",
+      "homepage": "https://github.com/rizzaogprod-a11y/takes-releases",
+      "installer": {
+        "type": "nsis"
+      },
+      "detect": {
+        "uninstallKeys": [
+          "335e5013-e70a-58cd-b189-01b7b5d6384e"
+        ],
+        "displayName": "TakeS",
+        "exe": "TakeS.exe",
+        "version": {
+          "source": "registry"
+        }
+      },
+      "run": {
+        "exe": "TakeS.exe",
+        "processName": "TakeS.exe"
+      },
+      "data": {
+        "settings": [
+          "%APPDATA%\\TakeS"
+        ]
+      },
+      "sso": "takes",
+      "releases": {
+        "stable": {
+          "version": "1.2.2",
+          "date": "2026-10-15",
+          "url": "https://github.com/rizzaogprod-a11y/takes-releases/releases/download/v1.2.2/TakeS-Setup.exe",
+          "sha256": "8411a987d3c2479a2a485e65527d0c8d129212b3fc1c9881ae4ab5e848b277aa",
+          "size": 74081956,
+          "notes": "Установщик TakeS для Windows"
+        }
+      },
+      "history": [
+        {
+          "version": "1.2.2",
+          "date": "2026-10-15",
+          "notes": "Установщик TakeS для Windows"
+        }
+      ]
+    },
+    {
+      "id": "sorter",
+      "name": "Sorter",
+      "summary": "Наводит порядок в файлах на компьютере",
+      "color": "#7b6cf6",
+      "icon": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/icons/sorter.png",
+      "homepage": "https://github.com/rizzaogprod-a11y/sorter-releases",
+      "installer": {
+        "type": "inno"
+      },
+      "detect": {
+        "uninstallKeys": [
+          "{7C1B5E2A-4F7D-4D8C-9C2E-50A7E5B1D0F3}_is1"
+        ],
+        "exe": "SORTER.exe",
+        "version": {
+          "source": "registry"
+        }
+      },
+      "run": {
+        "exe": "SORTER.exe",
+        "processName": "SORTER.exe"
+      },
+      "data": {
+        "settings": [
+          "%LOCALAPPDATA%\\SORTER\\data"
+        ],
+        "cache": [
+          "%LOCALAPPDATA%\\SORTER\\data\\cache"
+        ]
+      },
+      "sso": "none",
+      "releases": {
+        "stable": {
+          "version": "0.5.1",
+          "date": "2026-10-15",
+          "url": "https://github.com/rizzaogprod-a11y/sorter-releases/releases/download/v0.5.1/SORTER-Setup-0.5.1.exe",
+          "sha256": "8e4b8c2b7f5c8297392af1061640524a2937ced318df4704ed2efedb7ede74c2",
+          "size": 29129505,
+          "notes": "- Новая вкладка «Разрешения»: проверяет, может ли SORTER менять файлы в ваших папках, показывает, включена ли защита папок Windows, и одной кнопкой добавляет SORTER в разрешённые программы.\n- Окно «Готово» теперь объясняет причины ошибок (например, «Нет доступа — Windows запретила») и подсказывает, что делать.\n- Если Windows запрещает доступ несколько раз подряд, SORTER сразу останавливается, а не перебирает все файлы. Одобрение сохраняется — после выдачи доступа достаточно снова нажать «Выполнить одобренные».\n- Исправлено: «файл занят другой программой» больше не путается с «нет доступа»."
+        }
+      },
+      "history": [
+        {
+          "version": "0.5.1",
+          "date": "2026-10-15",
+          "notes": "- Новая вкладка «Разрешения»: проверяет, может ли SORTER менять файлы в ваших папках, показывает, включена ли защита папок Windows, и одной кнопкой добавляет SORTER в разрешённые программы.\n- Окно «Готово» теперь объясняет причины ошибок (например, «Нет доступа — Windows запретила») и подсказывает, что делать.\n- Если Windows запрещает доступ несколько раз подряд, SORTER сразу останавливается, а не перебирает все файлы. Одобрение сохраняется — после выдачи доступа достаточно снова нажать «Выполнить одобренные».\n- Исправлено: «файл занят другой программой» больше не путается с «нет доступа»."
+        }
+      ]
+    },
+    {
+      "id": "bleedline",
+      "name": "Bleedline",
+      "summary": "Музыкальные эдиты и работа с видео",
+      "color": "#e5484d",
+      "icon": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/icons/bleedline.png",
+      "homepage": "https://github.com/rizzaogprod-a11y/bleedline-releases",
+      "installer": {
+        "type": "bleedline-setup"
+      },
+      "detect": {
+        "uninstallKeys": [
+          "BLEEDLINE"
+        ],
+        "exe": "app\\BLEEDLINE.exe",
+        "version": {
+          "source": "json",
+          "file": "version.json",
+          "field": "version"
+        }
+      },
+      "run": {
+        "exe": "app\\BLEEDLINE.exe",
+        "processName": "BLEEDLINE.exe"
+      },
+      "data": {
+        "settings": [
+          "%APPDATA%\\BLEEDLINE"
+        ],
+        "projects": [
+          "%USERPROFILE%\\Documents\\BLEEDLINE",
+          "%USERPROFILE%\\Videos\\BLEEDLINE"
+        ],
+        "cache": [
+          "%LOCALAPPDATA%\\BLEEDLINE\\cache"
+        ]
+      },
+      "sso": "none",
+      "releases": {
+        "stable": {
+          "version": "0.10.10",
+          "date": "2026-10-21",
+          "url": "https://github.com/rizzaogprod-a11y/bleedline-releases/releases/download/v0.10.10/BLEEDLINE-Setup.exe",
+          "sha256": "dd5c90d6a75b0e0d01c7bbdcf2cb857f415bb25a03756b9f85f68a565e278cf3",
+          "size": 34816,
+          "downloadSize": 3240000000,
+          "notes": "Композит теперь работает во всех режимах текста: в «Сборке абзаца» двигается, увеличивается и поворачивается весь текст. Исправлено зависание предпросмотра после правки композитом: ошибка одного кадра больше не останавливает показ. Цвет «подкладки» можно менять у шаблонов с фоном, плашками и наклейками (LRX, Печатная машинка, Билборд, Стикеры, Неоновая вывеска, Сторис, Переписка, Genius), в программе и на телефоне. Если в проекте есть футаж, он остаётся виден и в отрезках шаблонов: при загрузке видео с треком фон «Футаж со шкалы» ставится сам, а подсказка в настройках шаблона предлагает включить его одной кнопкой.\n\nУстановка: скачайте **BLEEDLINE-Setup.exe** и запустите. Остальные файлы установщик скачает сам."
+        }
+      },
+      "history": [
+        {
+          "version": "0.10.10",
+          "date": "2026-10-21",
+          "notes": "Композит теперь работает во всех режимах текста: в «Сборке абзаца» двигается, увеличивается и поворачивается весь текст. Исправлено зависание предпросмотра после правки композитом: ошибка одного кадра больше не останавливает показ. Цвет «подкладки» можно менять у шаблонов с фоном, плашками и наклейками (LRX, Печатная машинка, Билборд, Стикеры, Неоновая вывеска, Сторис, Переписка, Genius), в программе и на телефоне. Если в проекте есть футаж, он остаётся виден и в отрезках шаблонов: при загрузке видео с треком фон «Футаж со шкалы» ставится сам, а подсказка в настройках шаблона предлагает включить его одной кнопкой.\n\nУстановка: скачайте **BLEEDLINE-Setup.exe** и запустите. Остальные файлы установщик скачает сам."
+        }
+      ]
+    }
+  ]
+}
