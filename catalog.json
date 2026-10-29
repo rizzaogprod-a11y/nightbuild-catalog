@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sequence": 25,
-  "issued": "2026-10-29T06:46:41Z",
+  "sequence": 26,
+  "issued": "2026-10-29T11:40:28Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
@@ -291,6 +291,49 @@
           "version": "1.0.0",
           "date": "2026-10-28",
           "notes": "Первый публичный выпуск PC Driver Center.\n\n- Проверка компьютера: устройства и драйверы, обновления из Windows Update, компоненты Windows (Visual C++, .NET, DirectX), статус BIOS со ссылкой на официальную страницу.\n- Установка выбранного или «Установить всё безопасное»: драйверы только из Windows Update, Visual C++ только с серверов Microsoft, подпись проверяется. Перед установкой список и предупреждения, точка восстановления, запрос UAC только на время установки.\n- Оптимизация Windows: диагностика, план с рисками, применение только после подтверждения, откат и сравнение до/после.\n- История установок, отчёт о системе (TXT и JSON), настройки.\n- Ставится без прав администратора для текущего пользователя.\n\nУстановщик пока не подписан сертификатом: Windows SmartScreen может предупредить при первом запуске («Подробнее» → «Выполнить в любом случае»).\n\nSHA-256 установщика: 6568082129fe60180e2df757f6cc1610f95d1cd2c1e9f5c80a469659b217e9c1"
+        }
+      ]
+    },
+    {
+      "id": "flp-packer",
+      "name": "FLP Packer",
+      "summary": "Собирает проект FL Studio со всеми сэмплами в одну папку и честно сообщает, чего не хватает",
+      "color": "#F2A93B",
+      "icon": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/icons/flp-packer.png",
+      "homepage": "https://github.com/rizzaogprod-a11y/flp-packer-releases",
+      "installer": {
+        "type": "nsis"
+      },
+      "detect": {
+        "uninstallKeys": [
+          "FLP Packer"
+        ],
+        "displayName": "FLP Packer",
+        "exe": "flp-packer.exe",
+        "version": {
+          "source": "registry"
+        }
+      },
+      "run": {
+        "exe": "flp-packer.exe",
+        "processName": "flp-packer.exe"
+      },
+      "sso": "none",
+      "releases": {
+        "stable": {
+          "version": "0.1.1",
+          "date": "2026-10-29",
+          "url": "https://github.com/rizzaogprod-a11y/flp-packer-releases/releases/download/v0.1.1/FLP-Packer-Setup.exe",
+          "sha256": "3947e591587f22e3b9724db33409cdd212db723d6e4ccb970fb6cd3989f55b1d",
+          "size": 3105031,
+          "notes": "- Кнопки «Открыть папку», «Отчёт» и «ZIP» на экране итога теперь работают.\n- Окно без двойного заголовка: шапка программы стала заголовком окна.\n- Программа сама сообщает о новых версиях и обновляется в один клик."
+        }
+      },
+      "history": [
+        {
+          "version": "0.1.1",
+          "date": "2026-10-29",
+          "notes": "- Кнопки «Открыть папку», «Отчёт» и «ZIP» на экране итога теперь работают.\n- Окно без двойного заголовка: шапка программы стала заголовком окна.\n- Программа сама сообщает о новых версиях и обновляется в один клик."
         }
       ]
     }
