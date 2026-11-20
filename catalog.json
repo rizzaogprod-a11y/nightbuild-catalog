@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sequence": 30,
-  "issued": "2026-11-20T05:17:31Z",
+  "sequence": 31,
+  "issued": "2026-11-20T05:17:58Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
@@ -601,41 +601,41 @@
       ],
       "screenshots": [
         {
-          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/1-47dfd699.webp",
-          "sha256": "47dfd6992aef111318014b53889ceda3edb8577884f077ad9177a174e782e067",
-          "size": 62200,
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/1-fd84fcda.webp",
+          "sha256": "fd84fcdaeaabaa2136ddc014f450f73cf8b21c15e46238ef38ef8442fe80642e",
+          "size": 62360,
           "w": 1360,
           "h": 860,
           "caption": "Каталог пресетов с анализом звука"
         },
         {
-          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/2-5dd76649.webp",
-          "sha256": "5dd766492b583497633989f5109c740bd2bcf96262767fff686b12fb851a87df",
-          "size": 33428,
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/2-62070b22.webp",
+          "sha256": "62070b22d68221db53b9afa44511574609ab5f90091e9f1708ffcf0f10d0fe11",
+          "size": 33606,
           "w": 1360,
           "h": 860,
           "caption": "Карта звуков: похожие лежат рядом"
         },
         {
-          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/3-f3e39b1a.webp",
-          "sha256": "f3e39b1a7f471557026531c7cb1f2b52bc458c1467f6e10328240f5e52e99da5",
-          "size": 44716,
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/3-5c9cecf7.webp",
+          "sha256": "5c9cecf70e8ae1bd8d59ea49259bb44442b1249aab8eb5aa8f374c7a4dd5e330",
+          "size": 44876,
           "w": 1360,
           "h": 860,
           "caption": "Референс: выделите звук из трека"
         },
         {
-          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/4-2d74936f.webp",
-          "sha256": "2d74936f69d49896d7a582b1d44e022eb6ede0d4fd674e5fe3f44e5698bd25d3",
-          "size": 56606,
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/4-cd6d182c.webp",
+          "sha256": "cd6d182cd157d79e9ecb1057ab37166c77cf4aff9b42b3b16155ae8e91d0a325",
+          "size": 56764,
           "w": 1360,
           "h": 860,
           "caption": "Генерация пресета по описанию"
         },
         {
-          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/5-03b44df9.webp",
-          "sha256": "03b44df9813a7fce2a0e5cacdce376cf443950537bde1d449d9c8cec9976381f",
-          "size": 57654,
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/serum-lab/5-3268f9ab.webp",
+          "sha256": "3268f9abf1315b153dc8451eda892538a0896fa41299f1ce818331d4397bdba4",
+          "size": 57736,
           "w": 1360,
           "h": 860,
           "caption": "Редактор варианта пресета"
