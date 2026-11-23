@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sequence": 31,
-  "issued": "2026-11-20T05:17:58Z",
+  "sequence": 32,
+  "issued": "2026-11-23T07:20:10Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
@@ -639,6 +639,96 @@
           "w": 1360,
           "h": 860,
           "caption": "Редактор варианта пресета"
+        }
+      ]
+    },
+    {
+      "id": "vela-studio",
+      "name": "Vela Studio",
+      "summary": "Запись экрана и стрим на Twitch: сцены, звук по дорожкам, виджеты донатов, повтор последних секунд.",
+      "color": "#f5a524",
+      "icon": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/icons/vela-studio.png",
+      "homepage": "https://github.com/rizzaogprod-a11y/vela-studio-releases",
+      "installer": {
+        "type": "nsis"
+      },
+      "detect": {
+        "uninstallKeys": [
+          "VelaStudio"
+        ],
+        "displayName": "Vela Studio",
+        "exe": "vela.exe",
+        "version": {
+          "source": "registry"
+        }
+      },
+      "run": {
+        "exe": "vela.exe",
+        "processName": "vela.exe"
+      },
+      "data": {
+        "settings": [
+          "%APPDATA%\\Vela"
+        ]
+      },
+      "sso": "none",
+      "releases": {
+        "stable": {
+          "version": "0.1.0",
+          "date": "2026-11-23",
+          "url": "https://github.com/rizzaogprod-a11y/vela-studio-releases/releases/download/v0.1.0/Vela-Studio-Setup-0.1.0.exe",
+          "sha256": "5cb4ee6ce28cf367413e7372c6783a4af61667d77a0e68bdd529fe92f8f00222",
+          "size": 4398847,
+          "notes": "Первая версия Vela Studio: запись экрана и стрим для Windows 11.\n\n**Запись и источники**\n- Запись монитора, окна или выделенной области; переключение монитора на ходу; режим «под курсором».\n- Кодирование на видеокарте: H.264, HEVC, AV1; форматы MP4, MKV, MOV; режимы битрейта «переменный», «постоянный», «качество».\n- Восстановление записи после сбоя, деление длинной записи на части, повтор последних секунд (Ctrl+Alt+S), метки с таймкодами (Ctrl+Alt+B).\n- Тихий режим: плавающая панель, которая не попадает в запись.\n\n**Сцены и звук**\n- Сцены из шаблонов, слои (экран, картинка, GIF, текст, плашка, камера, чат), переходы, режим студии, отмена и повтор.\n- Микшер: микрофон, системный звук, отдельные дорожки, шумодав, гейт, компрессор, прослушивание в наушниках.\n\n**Стрим и Twitch**\n- Свой RTMP/RTMPS-стрим, чат Twitch (панель автора, отдельное окно, слой для зрителей).\n- Вход в Twitch, смена названия и категории, события (фолловы, подписки, рейды).\n\n**Виджеты и донаты**\n- Цель, счётчики, топ донатеров, последний донатер, таймеры, алерты с GIF и звуком (в том числе по суммам).\n- Приём донатов из DonationAlerts.\n- Оформления: «Стекло», «Неон», «Эфирная плашка».\n\n**Удобство**\n- Палитра команд Ctrl+K, свои горячие клавиши.\n\nУстановка для текущего пользователя, права администратора не нужны. Установщик не подписан: при первом запуске Windows SmartScreen может показать предупреждение.\n\nSHA-256 установщика: `5cb4ee6ce28cf367413e7372c6783a4af61667d77a0e68bdd529fe92f8f00222`"
+        }
+      },
+      "history": [
+        {
+          "version": "0.1.0",
+          "date": "2026-11-23",
+          "notes": "Первая версия Vela Studio: запись экрана и стрим для Windows 11.\n\n**Запись и источники**\n- Запись монитора, окна или выделенной области; переключение монитора на ходу; режим «под курсором».\n- Кодирование на видеокарте: H.264, HEVC, AV1; форматы MP4, MKV, MOV; режимы битрейта «переменный», «постоянный», «качество».\n- Восстановление записи после сбоя, деление длинной записи на части, повтор последних секунд (Ctrl+Alt+S), метки с таймкодами (Ctrl+Alt+B).\n- Тихий режим: плавающая панель, которая не попадает в запись.\n\n**Сцены и звук**\n- Сцены из шаблонов, слои (экран, картинка, GIF, текст, плашка, камера, чат), переходы, режим студии, отмена и повтор.\n- Микшер: микрофон, системный звук, отдельные дорожки, шумодав, гейт, компрессор, прослушивание в наушниках.\n"
+        }
+      ],
+      "screenshots": [
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/vela-studio/1-6983f547.webp",
+          "sha256": "6983f5472a9e086d659df7b6f1aa803c3321f659b649262bb068d7189f10bcfe",
+          "size": 63628,
+          "w": 1440,
+          "h": 900,
+          "caption": "Цель стрима: полоса растёт с донатами"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/vela-studio/2-dcc396a6.webp",
+          "sha256": "dcc396a62bc2b0f5d27e3b81d9ac52a0c30423c2cd4988cba680226e68fc34f0",
+          "size": 70280,
+          "w": 1440,
+          "h": 900,
+          "caption": "Алерты донатов с картинкой и звуком"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/vela-studio/3-a553a104.webp",
+          "sha256": "a553a1048fb9c407f1e25609d80d10bdad5e2fd4e30d1144f01561cd5ebb2ae3",
+          "size": 49432,
+          "w": 1440,
+          "h": 900,
+          "caption": "Стрим, Twitch и DonationAlerts"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/vela-studio/4-23e1cb96.webp",
+          "sha256": "23e1cb96b45c65c8ffe9f57e280fdb52e3821a0e225723398191b997cbbb4af8",
+          "size": 33660,
+          "w": 1440,
+          "h": 900,
+          "caption": "Палитра команд Ctrl+K"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/vela-studio/5-92b6ac88.webp",
+          "sha256": "92b6ac88bb23867c6a91f725e38cc417a318ec36edd44d93af9b6b79fe331521",
+          "size": 48046,
+          "w": 1440,
+          "h": 900,
+          "caption": "Запись: кодек, формат, деление на части"
         }
       ]
     }
