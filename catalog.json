@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "sequence": 32,
-  "issued": "2026-11-23T07:20:10Z",
+  "sequence": 35,
+  "issued": "2026-11-26T15:29:51Z",
   "launcher": {
     "minSupported": "0.1.0",
     "releases": {
@@ -729,6 +729,97 @@
           "w": 1440,
           "h": 900,
           "caption": "Запись: кодек, формат, деление на части"
+        }
+      ]
+    },
+    {
+      "id": "cleaner",
+      "name": "Cleaner",
+      "summary": "Безопасная очистка диска: мусор и кэши уходят в карантин, откуда файлы можно вернуть.",
+      "description": "Простая безопасная очистка диска для Windows 10/11. Ищет временные файлы, кэш браузеров, приложений и игр, миниатюры, логи и корзину на всех дисках. Перед удалением переносит файлы в карантин и умеет вернуть их на место. Без интернета и телеметрии.",
+      "color": "#5EF2B0",
+      "icon": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/icons/cleaner.png",
+      "homepage": "https://github.com/rizzaogprod-a11y/cleaner",
+      "installer": {
+        "type": "nsis"
+      },
+      "detect": {
+        "uninstallKeys": [
+          "Cleaner"
+        ],
+        "displayName": "Cleaner",
+        "exe": "cleaner.exe",
+        "version": {
+          "source": "registry"
+        }
+      },
+      "run": {
+        "exe": "cleaner.exe",
+        "processName": "cleaner.exe"
+      },
+      "data": {
+        "projects": [
+          "%LOCALAPPDATA%\\Nightbuild\\Cleaner"
+        ]
+      },
+      "sso": "none",
+      "releases": {
+        "stable": {
+          "version": "1.0.0",
+          "date": "2026-11-26",
+          "url": "https://github.com/rizzaogprod-a11y/cleaner/releases/download/v1.0.0/Cleaner_1.0.0_x64-setup.exe",
+          "sha256": "7782973d0632bd97cdac3271db1e808972e4dfae8e9039718607b6eb20b286a4",
+          "size": 1758436,
+          "notes": "Первый выпуск. Безопасная очистка диска для Windows 10/11 с карантином и восстановлением.\n\n- Временные файлы, кэш браузеров, приложений и шейдеров, миниатюры, логи, корзина на всех дисках.\n- Карантин на том же диске, восстановление файла или всей очистки, ручное удаление карантина.\n- Установка без прав администратора: `/S /currentuser`."
+        }
+      },
+      "history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-26",
+          "notes": "Первый выпуск. Безопасная очистка диска для Windows 10/11 с карантином и восстановлением.\n\n- Временные файлы, кэш браузеров, приложений и шейдеров, миниатюры, логи, корзина на всех дисках.\n- Карантин на том же диске, восстановление файла или всей очистки, ручное удаление карантина.\n- Установка без прав администратора: `/S /currentuser`."
+        }
+      ],
+      "screenshots": [
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/cleaner/1-dae63c01.webp",
+          "sha256": "dae63c0116429f9e9db5a9226d856961d162d21b7aae53dc88d88c95d6bdba9d",
+          "size": 54736,
+          "w": 1136,
+          "h": 770,
+          "caption": "Главный экран: найденный мусор"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/cleaner/2-50fb0908.webp",
+          "sha256": "50fb0908b3e14cf37a5a81ce8d90363d503c79d236420dedf59fcb7eec4d64f2",
+          "size": 40870,
+          "w": 1136,
+          "h": 770,
+          "caption": "Подробности и выбор мест"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/cleaner/3-fb381db5.webp",
+          "sha256": "fb381db5a785fc84e47bcb16b9685170f9f57986ba4d9b02c868ec1587515a49",
+          "size": 23482,
+          "w": 1136,
+          "h": 770,
+          "caption": "Подтверждение с предупреждением"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/cleaner/4-d8437b25.webp",
+          "sha256": "d8437b25ba7f1229dd3bf7c42019da26b5c69b290cc49cf4cd8ee08d80f199dc",
+          "size": 23808,
+          "w": 1136,
+          "h": 770,
+          "caption": "Отчёт: что в карантине"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rizzaogprod-a11y/nightbuild-catalog/main/shots/cleaner/5-b2fe8bf5.webp",
+          "sha256": "b2fe8bf540a19b0fac657ba41447192406790562fc531827c3f55c28aff652e2",
+          "size": 47510,
+          "w": 1136,
+          "h": 770,
+          "caption": "История и восстановление"
         }
       ]
     }
